@@ -1,0 +1,44 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+}
+
+.body-landing{
+    background: rgb(255,189,89);
+    background: radial-gradient(circle, rgb(218, 151, 52) 50%, rgb(0, 0, 0) 100%);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    color:white;
+}
+
+.titulo-tua-tour{
+    font-size: 3em;
+    letter-spacing: 0.5em;
+}
+
+.introducao {
+    margin-top: 10px;
+}
+
+.menu-landing-page{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.margin-menu-landing-page{
+    padding: 20px 0px;
+    margin: 10px;
+    border: 1px solid rgb(218, 151, 52);
+    border-radius: 5px;
+    transition: 1s;
+}
+
+.margin-menu-landing-page:hover{
+    background: radial-gradient(circle, rgb(218, 151, 52) 50%, rgb(0, 0, 0) 100%);
+}
