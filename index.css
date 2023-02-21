@@ -115,6 +115,41 @@ nav ul a {
     margin: 20px 0px;
 }
 
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content:baseline;
+    align-items:center;
+}
+.card{
+    padding: 20px;
+    border: 4px dashed var(--primary-color);
+    border-radius: 20px;
+    max-width: 200px;
+    text-align: center;
+    max-height: 200px;
+    min-height: 300px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.card:hover{
+    padding: 20px;
+    border: 4px solid var(--primary-color);
+    background-color: var(--second-color);
+    color: var(--back-color);
+}
+
+.imagem-certificado{
+    max-width:200px;
+    max-height:150px;
+}
+
+.p-card-title{
+    margin-top: 20px;
+    font-weight: bold;
+}
+
 @media screen and (min-width: 1200px) {
     .projetos{
         display:flex;
