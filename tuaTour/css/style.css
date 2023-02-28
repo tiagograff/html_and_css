@@ -64,3 +64,11 @@ body{
     font-size: 12px;
     text-align: center;
 }
+
+@media screen and (max-width: 614px) {
+
+    .corpo{
+        display: flex;
+        flex-direction: column;
+    }
+}
