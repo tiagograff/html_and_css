@@ -6,13 +6,17 @@
     text-decoration: none;
 }
 
+/*variáveis*/
 :root{
     --back-color: #0b0603;
-    --primary-color: #a12c00;
-    --second-color: #fdda76;
-    --font-color:  #f5f2d0;
+    --primary-color: #bd512a;
+    --second-color: #fce5a6fd;
+    --font-color:  #f3f2ea;
+    --card-background: #be4011;
     --font-type: 'Inter', sans-serif;
 }
+
+/*corpo*/
 
 *{
     list-style: none;
@@ -25,7 +29,9 @@ body{
     font-family: 'Inter', sans-serif;
 }
 
-header .banner-image {
+/*cabeçalho*/
+
+header .banner__image {
     width: 100%;
     min-width: 375px;
     height: 200px; 
@@ -33,14 +39,14 @@ header .banner-image {
     display: block;
 }
 
-.icone-de-perfil{
+.perfil{
     position: relative;
     top: -100px;
     display: flex;
     justify-content: center;
 }
 
-.icone-de-perfil img{
+.foto-de-perfil{
     border:#a12c00 solid 5px;
     width: 200px;
     height: 200px;
@@ -53,11 +59,11 @@ header .banner-image {
     border:#fdda76 solid 5px;
 }
 
-span{
+.marcacao-de-texto{
     color: var(--primary-color);
 }
 
- h1{
+ .titulo-principal{
     font-size: 3rem;
     text-align: center;
     margin: 0px 10px;
@@ -67,14 +73,16 @@ span{
     border-width: medium;
 }
 
-h2{
+/*conteúdo principal - introdução*/
+
+.sub-titulos{
     margin-left: 10px;
     font-size: 2rem;
     color: var(--second-color);
     margin-bottom: 20px;
 }
 
-h2::before{
+.sub-titulos::before{
     content: "· ";
 }
 
@@ -85,7 +93,7 @@ h3{
     margin-bottom: 10px;
 }
 
-h4{
+.texto-de-apresentacao{
     margin: 20px 20px;
     text-align: justify;
 }
@@ -95,27 +103,31 @@ h4{
     display: inline;
 }
 
+/*projetos*/
+
 .projetos{
     display:flex;
     flex-direction: row;
     justify-content: center;
 }
 
-nav{
+.projetos____nav{
     margin-bottom: 20px;
 }
 
-nav ul {
+.projetos__nav__menu {
     margin-left: 10px;
 
 }
 
-nav ul a {
+.projetos__nav__menu__link {
     color: var(--font-color);
     margin: 20px 0px;
 }
 
-.cards-ul{
+/*certificados*/
+
+.cards-lista{
     display: flex;
     flex-direction: column;
     justify-content:center;
@@ -141,7 +153,7 @@ nav ul a {
 .card:hover{
     padding: 20px;
     border: 4px solid var(--primary-color);
-    background-color: var(--second-color);
+    background-color: var(--card-background);
     color: var(--back-color);
 }
 
@@ -156,39 +168,48 @@ nav ul a {
     font-weight: bold;
 }
 
-@media screen and (max-width: 480px) {
-    .projetos{
-        display:flex;
-        flex-direction: row;
-        justify-content:space-around;
-    }
-}
+@media screen and (min-width: 600px) {
 
-@media screen and (min-width: 480px) {
-
-    h2{
+    .sub-titulos{
         margin: 20px 20px;
     }
 
-    h4{
-        margin: 20px 20px;
-        text-align: justify;
+    .apresentacao{
+        display: flex;
     }
+
+    
 
     .projetos{
         display: flex;
         flex-wrap: wrap;
         justify-content: start;
-        margin-left: 20px;
+        margin-left: 5em;
     }
 
-    .projetos-responsivos{
-        margin-left: 2rem;
+    .projetos__nao-responsivos{
+        margin-right: 5rem;
     }
 
-    .cards-ul{
+    .cards-lista{
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
+    }
+}
+
+@media screen and (min-width: 1270px) {
+    .texto-de-apresentacao{
+        margin: 20px 15em;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 2000px) {
+    .texto-de-apresentacao{
+        margin: 20px 35em;
+        justify-content: center;
+        align-items: center;
     }
 }
