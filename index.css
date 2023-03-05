@@ -52,10 +52,10 @@ header .banner__image {
     height: 200px;
     border-radius: 50%;
     padding: 5px;
-    transition: 2s;
+    transition: 1s;
 }
 
-.icone-de-perfil img:hover{
+.foto-de-perfil:hover{
     border:#fdda76 solid 5px;
 }
 
@@ -178,8 +178,6 @@ h3{
         display: flex;
     }
 
-    
-
     .projetos{
         display: flex;
         flex-wrap: wrap;
@@ -204,6 +202,13 @@ h3{
         justify-content: center;
         align-items: center;
     }
+
+    .cards-lista{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+    }
 }
 
 @media screen and (min-width: 2000px) {
@@ -211,5 +216,12 @@ h3{
         margin: 20px 35em;
         justify-content: center;
         align-items: center;
+    }
+
+    .cards-lista{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
     }
 }
