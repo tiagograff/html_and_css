@@ -214,18 +214,25 @@ h3{
     }
 }
 
-@media screen and (min-width: 1270px) {
+@media screen and (min-width: 600px) {
+
+    .experiencia__texto{
+        width: 100%;
+    }
+
     .texto-de-apresentacao{
-        margin: 20px 15em;
+        margin: 20px 5em;
         justify-content: center;
         align-items: center;
     }
 
     .cards-lista{
+        width: auto;
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: space-between;
+        align-items:normal;
     }
 }
 
