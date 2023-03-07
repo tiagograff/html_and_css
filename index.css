@@ -27,7 +27,7 @@ body{
     background-color: var(--back-color);
     color: var(--font-color);
     font-family: 'Inter', sans-serif;
-    width: 90%;
+    width: auto;
 }
 
 /*cabeçalho*/
