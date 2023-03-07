@@ -136,7 +136,7 @@ h3{
 
 .experiencia__texto__paragrafo{
     border-left: 1px solid var(--card-background);
-    padding-left: 10px;
+    padding: 0 10px;
 }
 
 .experiencia__texto__paragrafo:nth-child(1){
@@ -212,7 +212,7 @@ h3{
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
-        justify-content: center;
+        justify-content: start;
     }
 }
 
