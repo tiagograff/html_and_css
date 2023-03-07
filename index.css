@@ -27,6 +27,7 @@ body{
     background-color: var(--back-color);
     color: var(--font-color);
     font-family: 'Inter', sans-serif;
+    width: 90%;
 }
 
 /*cabeçalho*/
@@ -123,6 +124,23 @@ h3{
 .projetos__nav__menu__link {
     color: var(--font-color);
     margin: 20px 0px;
+}
+
+/*experiência*/
+.experiencia__texto{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.experiencia__texto__paragrafo{
+    border-left: 1px solid var(--card-background);
+    padding-left: 10px;
+}
+
+.experiencia__texto__paragrafo:nth-child(1){
+    margin-left: 35px;
 }
 
 /*certificados*/
@@ -223,5 +241,17 @@ h3{
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .experiencia__texto{
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+
+    .experiencia__texto__paragrafo:nth-child(1){
+        margin-left: 0px;
     }
 }
