@@ -1,0 +1,45 @@
+.right{
+    width: 15%;
+    height: 100%;
+    border-right: 1px solid rgb(212, 212, 212);
+    margin: 0 0 0 25px;
+    position: fixed;
+}
+
+.titulo-principal{
+    margin: 20px 0;
+    font-family: var(--font-logo);
+}
+
+.icon-aside{
+    width: 24px;
+    height: 24px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+}
+
+.menu__itens{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+}
+
+.menu__itens:nth-of-type(2n-1){
+    margin: 25px 0;
+}
+
+.menu__itens:nth-last-child(1){
+    margin: 75% 0 0 0;
+}
+
+.icon-aside__perfil{
+    border-radius: 50%;
+}
+
+.icon-aside{
+    margin-right: 15px;
+}
