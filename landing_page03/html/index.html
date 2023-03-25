@@ -5,18 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WatcHouse</title>
+    <link rel="stylesheet" href="../css/root.css">
+    <link rel="stylesheet" href="../css/header.css">
 </head>
 <body>
     <header>
         <nav class="header__menu">
-            <img src="https://cdn-icons-png.flaticon.com/512/617/617690.png" alt="logo's watchouse">
-            <h3 class="logo-title">watchouse</h3>
+            <div class="header__logo">
+                <img class="header__image" src="https://cdn-icons-png.flaticon.com/512/617/617690.png" alt="logo's watchouse">
+                <h3 class="logo-title">WatcHouse</h3>
+            </div>
             <ul class="header__menu__list">
-                <li class="header__menu__item"><a class="header__menu__link" href="#"></a>home</li>
-                <li class="header__menu__item"><a class="header__menu__link" href="#"></a>services</li>
-                <li class="header__menu__item"><a class="header__menu__link" href="#"></a>price</li>
+                <li class="header__menu__item"><a class="header__menu__link" href="#">home</a></li>
+                <li class="header__menu__item"><a class="header__menu__link" href="#">services</a></li>
+                <li class="header__menu__item"><a class="header__menu__link" href="#">price</a></li>
             </ul>
-            <p class="header__menu__paragraph"><a class="header__menu__paragraph__link" href="#"></a> Enter E-mail address</p>
+            <label class="header__label" for="id__input" ></label>
+            <input class="header__input" title="Fill in this field" type="text" id="id__input" name="name__input" placeholder="Enter E-mail address">
             <button class="header__menu__button">Join us</button>
         </nav>
     </header>

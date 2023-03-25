@@ -1,0 +1,80 @@
+/* logo */
+
+header{
+    background: var(--menu-background);
+}
+
+.header__menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header__logo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header__image{
+    width: 3rem;
+    height: 3rem;
+}
+
+.logo-title{
+    color: var(--font-color);
+    font-size: 2.5rem;
+}
+
+/* menu */
+
+.header__menu__list{
+    display: flex;
+}
+
+.header__menu__item{
+    margin-left: 2rem;
+}
+
+.header__menu__link{
+    color: var(--font-color);
+    text-transform: uppercase;
+}
+
+.header__menu__link:hover{
+    text-decoration: underline;
+}
+
+.header__menu__paragraph__link{
+    color: var(--font-color-secundary);
+}
+
+/* input e-mail */
+
+.header__label{
+    color: var(--font-color-secundary);
+}
+
+.header__input{
+    background: var(--menu-background);
+    border: none;
+    font-size: 1.1rem;
+}
+
+/* botao */
+
+.header__menu__button{
+    font-size: 1.1rem;
+    color: var(--font-color);
+    padding: 0.2rem 1.5rem;
+    background: var(--button-black);
+    border: 1px solid var(--button-black);
+    border-radius: 50px;
+    transition: 0.5s;
+}
+
+.header__menu__button:hover{
+    color: var(--background);
+    background: var(--button-white);
+    border: 1px solid var(--button-white);
+}
