@@ -1,0 +1,25 @@
+.services{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: var(--font-color);
+}
+
+.service__infos{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    gap: 1.25rem;
+    text-align: center;
+}
+
+.subt-title{
+    font-size: 4rem;
+}
+
+.service__video__iframe{
+    width: 100vh;
+    max-width: 800px;
+    height: 100vh;
+    max-height: 400px;
+}
