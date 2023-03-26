@@ -3,6 +3,7 @@
     align-items: center;
     justify-content: space-around;
     color: var(--font-color);
+    margin: 5rem 0;
 }
 
 .service__infos{
@@ -15,6 +16,7 @@
 
 .subt-title{
     font-size: 4rem;
+    text-transform: uppercase;
 }
 
 .service__video__iframe{
