@@ -4,6 +4,7 @@
     align-items: center;
     gap: 2rem;
     color: var(--font-color);
+    margin-bottom: 5rem;
 }
 
 .price__text{
@@ -25,7 +26,9 @@
 .card{
     display: flex;
     flex-direction: column;
-    align-items:center
+    align-items:center;
+    border-right: 1px solid var(--font-color);
+ 
 }
 
 .card__topic__image{
@@ -34,6 +37,7 @@
     margin: 2rem 0;
     transition: transform .5s, filter .5s ease-in-out;
     filter: grayscale(100%);
+    margin-right: 2.25rem;
 }
 
 .card__topic__image:hover{
