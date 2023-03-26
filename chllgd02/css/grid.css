@@ -1,0 +1,27 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(2,1fr);
+    column-gap: 2rem;
+    row-gap: 2rem;
+}
+
+.album{
+    width: 100%;
+    filter: saturate(0%);
+    transition: 1s;
+}
+
+.album:hover{
+    filter: saturate(100%);
+}
+
+@media screen and (max-width: 1300px) {
+    .container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(5,1fr);
+        column-gap: 2rem;
+        row-gap: 2rem;
+    }
+}
