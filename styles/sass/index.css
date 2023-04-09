@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -27,13 +28,13 @@ header .banner__image {
      object-fit: cover;
   display: block;
 }
-header .perfil {
+header .profile {
   position: relative;
   top: -100px;
   display: flex;
   justify-content: center;
 }
-header .perfil .perfil__foto {
+header .profile .profile__photo {
   border: #a12c00 solid 5px;
   width: 200px;
   height: 200px;
@@ -41,6 +42,31 @@ header .perfil .perfil__foto {
   padding: 5px;
   transition: 1s;
 }
-header .perfil .perfil__foto:hover {
+header .profile .profile__photo:hover {
   border-color: #f1db9e;
+}
+
+body .welcome {
+  display: flex;
+  text-align: justify;
+  margin: 0 3rem;
+  justify-content: center;
+  flex-direction: column;
+}
+body .welcome .welcome__title {
+  font-size: 3rem;
+  text-align: center;
+  margin: 0px 10px;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #f1db9e;
+  border-width: medium;
+  font-weight: bold;
+}
+body .welcome .welcome__text-highlight {
+  color: #bd512a;
+}
+body .welcome__presentation .welcome__title__text {
+  margin: 20px 20px;
+  text-align: justify;
 }/*# sourceMappingURL=index.css.map */
