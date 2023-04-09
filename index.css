@@ -1,10 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Roboto:wght@300&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-}
+
 
 /*variáveis*/
 :root{
@@ -16,59 +10,23 @@
     --font-type: 'Inter', sans-serif;
 }
 
-/*corpo*/
-
-*{
-    list-style: none;
-    
-}
-
-body{
-    height: 100vh;
-    background: rgb(189,81,42);
-    background: linear-gradient(126deg, rgba(189,81,42,1) 0%, rgba(11,6,3,1) 50%);background-repeat: no-repeat;
-    background-size: cover;
-    color: var(--font-color);
-    font-family: 'Inter', sans-serif;
-    width: 100%;
-    height: 100%;
-}
-
 /*cabeçalho*/
 
-header .banner__image {
-    width: 100%;
-    min-width: 375px;
-    height: 200px; 
-    object-fit: cover;
-    display: block;
-}
-
-.perfil{
-    position: relative;
-    top: -100px;
-    display: flex;
-    justify-content: center;
-}
-
-.foto-de-perfil{
-    border:#a12c00 solid 5px;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    padding: 5px;
-    transition: 1s;
-}
-
-.foto-de-perfil:hover{
-    border:#fdda76 solid 5px;
-}
 
 .marcacao-de-texto{
     color: var(--primary-color);
 }
 
- .titulo-principal{
+.welcome{
+    display: flex;
+    text-align: justify;
+    margin: 0 3rem;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+ .welcome__title{
     font-size: 3rem;
     text-align: center;
     margin: 0px 10px;
@@ -98,7 +56,7 @@ h3{
     margin-bottom: 10px;
 }
 
-.texto-de-apresentacao{
+.welcome__title__text{
     margin: 20px 20px;
     text-align: justify;
 }
