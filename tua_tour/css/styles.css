@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito Sans", sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  background: rgb(14, 17, 17);
+  height: 100vh;
+  width: 100vh;
+}
+
+.home {
+  display: flex;
+  margin: 0 16rem;
+  width: 100vh;
+  align-items: center;
+}
+.home-tua_tour {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 4rem 0 0 0;
+}
+.home-tua_tour-logo {
+  width: 300px;
+  margin-bottom: 4rem;
+  filter: grayscale(100%);
+}
+.home-tua_tour-logo:hover {
+  transform: scale(1.1);
+  filter: grayscale(0%);
+}
+.home-tua_tour-title {
+  color: rgb(249, 241, 241);
+  font-weight: 100;
+  font-size: 4rem;
+}
+.home-tua_tour-title:hover {
+  transform: scale(1.1);
+}
+.home-tua_tour-sub_title {
+  color: rgb(249, 241, 241);
+  font-weight: 100;
+  font-size: 1rem;
+  text-align: center;
+}
+.home-menu {
+  margin: 0 0 0 16rem;
+}
+.home-menu-nav-list-item {
+  border: 1px solid rgb(55, 48, 107);
+  border-radius: 20px;
+  padding: 0.5rem 0rem;
+  width: 50vh;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.home-menu-nav-list-item:hover {
+  background: radial-gradient(circle, rgb(55, 48, 107) 0%, rgb(102, 52, 127) 25%, rgb(210, 118, 133) 50%, rgb(158, 71, 132) 75%, rgb(55, 48, 107) 100%);
+}
+.home-menu-nav-list-item-link {
+  color: rgb(249, 241, 241);
+}
+
+/*# sourceMappingURL=styles.css.map */

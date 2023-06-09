@@ -1,0 +1,44 @@
+@use '../abstract/variables'
+.home
+    display: flex
+    margin: 0 variables.$spacing*4
+    width: 100vh
+    align-items: center
+    &-tua_tour
+        display: flex
+        flex-direction: column
+        align-items: center
+        margin: variables.$spacing 0 0 0  
+        &-logo
+            width: 300px
+            margin-bottom: variables.$spacing
+            filter: grayscale(100%)
+            &:hover
+                transform: scale(1.1)
+                filter: grayscale(0%)
+        &-title
+            color: variables.$white-color
+            font-weight: 100
+            font-size: variables.$font-title
+            &:hover
+                transform: scale(1.1)
+        &-sub_title
+            color: variables.$white-color
+            font-weight: 100
+            font-size: variables.$font-sub-title/2 
+            text-align: center
+    &-menu
+        margin: 0  0 0 variables.$spacing*4
+        &-nav
+            &-list
+                &-item 
+                    border: 1px solid variables.$primary-color
+                    border-radius: 20px
+                    padding: 0.5rem 0rem 
+                    width: 50vh
+                    text-align: center
+                    margin-bottom: 2rem
+                    &:hover
+                        background: variables.$background
+                    &-link
+                        color: variables.$white-color
